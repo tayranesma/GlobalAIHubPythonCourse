@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Apr  6 21:34:44 2021
 
-@author: LENOVO
-Homework-1
-"""
 #%%Create 2 lists, the first consist of odd numbers, the second consists of even numbers
 list_odd = list(range(1,20, 2))
 print(list_odd)
