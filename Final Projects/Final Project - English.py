@@ -11,7 +11,6 @@ Knowledge competition
 * If the user answers more than 5 questions correctly, it will be considered successful
 """
 
-#%% İngilizce sorular
 count = 0
 questions = {"What is the hottest continent on Earth?": "Africa",
              "What is restricted by the ozone layer?":"Ultraviolet radiation",
@@ -26,8 +25,8 @@ questions = {"What is the hottest continent on Earth?": "Africa",
 
 for key, value in questions.items():
     print(key)
-    cevap = input("your answer: ")
-    if cevap == value:
+    answer = input("your answer: ")
+    if answer == value: #if answer is correct, then add 1 to count variable
         count += 1
         print("correct answer\n")
     else:
