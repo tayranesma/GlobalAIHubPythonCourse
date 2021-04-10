@@ -3,7 +3,7 @@ This repo is made for homeworks and final project given by instructor
 
 ![](img/newlogo.png)
 
-**Course Date:** 22.03.2021  
+**Course Date:** 05.04.2021  
 **Name:** Esma  
 **Surname:** Tayran  
 **Email:** tayranesma@gmail.com  
