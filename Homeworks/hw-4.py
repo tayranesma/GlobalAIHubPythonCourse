@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Apr  8 21:46:02 2021
 
-@author: LENOVO
-homework-4
-"""
 """
 Course Grade Application
 * create 5 students. Ask these students from the user.
@@ -15,7 +10,7 @@ Course Grade Application
 * calculate the students' grades and transfer them to the list with help of indexing
 * finally set the student with the highest grade to be in the first index and the student with the lowest grade to be in the last index of the list
 """
-
+#Making students dictionary
 students = {}
 for i in range(5):
     name = input("Please insert an username: ")
@@ -25,14 +20,17 @@ for i in range(5):
     score = midterm*0.3 + project*0.3 + final*0.4
     students[name] = score
     
-print("\n")    
+print("\n")  
+
 #sort dictionary by descending order
 sorted_students = {k: v for k, v in sorted(students.items(), key = lambda item: item[1], reverse = True)}  
 #print sorted values   
 for (key,value) in sorted_students.items():
     print(key, value)
+    
 print("\n")
-#Grades
+
+#Grades---Extra
 for (key,value) in sorted_students.items():
             if value >= 85:
                 print("%s passed with A grade" % key)
