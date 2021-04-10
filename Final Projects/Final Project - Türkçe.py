@@ -25,7 +25,7 @@ questions = {"Moğol İmparatorluğu'nun kurucusu kimdir": "Cengizhan",
 
 for key, value in questions.items():
     print(key)
-    cevap = input("yanıtınız: ")
+    cevap = input("yanıtınız: ") #cevap doğruysa count değişkenini 1 arttır
     if cevap == value:
         count += 1
         print("doğru cevap\n")
