@@ -11,7 +11,7 @@ This repo is made for homeworks and final project given by instructor
 **Note:** Your homeworks can be formats like ".ipynb" and ".py". **Not ".txt" files!!** Make sure that your codes works.  
 
 ## Project Name
-Description of your project.
+Making a knowlegde contest by using python.
 
 ## Requirements
 ```
